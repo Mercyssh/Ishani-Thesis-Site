@@ -368,3 +368,39 @@ ul li:active {
 .p-temporal {
     background: white;
 }
+
+
+/* Contact Information at bottom */
+#contactInfo {
+    font-family: 'Montserrat', 'Inter', Helvetica, sans-serif;
+    font-size: max(.7vw, 11px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    text-align: center;
+
+    width: max-content;
+    height: max-content;
+
+
+    position: absolute;
+    bottom: 20px;
+}
+
+#contactInfo .sep {
+    width: 1px;
+    height: 12px;
+    border-left: 1px solid black;
+    opacity: .2;
+}
+
+#contactInfo a:link {
+    color: #b91858;
+
+}
+
+#contactInfo a:visited {
+    color: #b91858;
+}
