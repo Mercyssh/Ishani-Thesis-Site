@@ -23,6 +23,7 @@ function updateUI(portrait) {
         //this is needed due to a wierd browser bug where it doesn't set z-index correctly
         //when switching from landscape to portrait..
         $('#book').addClass('bookToFront');
+        $('#contactInfo').addClass('bookToFront');
     } else {
         _orientation = false;
 
@@ -37,6 +38,7 @@ function updateUI(portrait) {
 
         $('#book').turn('display', 'double');
         $('#book').removeClass('bookToFront');
+        $('#contactInfo').removeClass('bookToFront');
     }
 }
 // This adds an event listener to the window object, which listens for a change on the orientation property
